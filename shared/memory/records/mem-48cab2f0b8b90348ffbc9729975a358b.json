@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "mem-48cab2f0b8b90348ffbc9729975a358b",
+  "scope": "shared",
+  "kind": "preference",
+  "title": "Three separate agent memory domains",
+  "body": "Keep personal and work knowledge, software development and technical research, and business operations and content creation in separate folders. Share reusable knowledge only through an explicit shared library.",
+  "status": "active",
+  "classification": "internal",
+  "confidence": 1.0,
+  "tags": [
+    "setup",
+    "domains",
+    "memory",
+    "separation"
+  ],
+  "sources": [
+    {
+      "ref": "shared/sources/initial-request.md",
+      "excerpt": "all three in separate folders"
+    }
+  ],
+  "created_at": "2026-09-27T12:09:23+00:00",
+  "updated_at": "2026-09-27T12:09:23+00:00",
+  "review_after": "2027-03-26T12:09:23+00:00",
+  "expires_at": null,
+  "supersedes": [],
+  "history": [
+    {
+      "at": "2026-09-27T12:09:23+00:00",
+      "actor": "repository-bootstrap",
+      "action": "create",
+      "reason": "Captured as a draft for review."
+    },
+    {
+      "at": "2026-09-27T12:09:23+00:00",
+      "actor": "repository-bootstrap",
+      "action": "activate",
+      "reason": "Directly grounded in the owner's explicit setup request; no additional personal facts inferred."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "mem-00000000000000000000000000000000",
+  "scope": "software",
+  "kind": "fact",
+  "title": "Replace with one supported claim",
+  "body": "Replace with a concise, contextual claim.",
+  "status": "draft",
+  "classification": "internal",
+  "confidence": 0.5,
+  "tags": [
+    "example"
+  ],
+  "sources": [
+    {
+      "ref": "REPLACE_WITH_LOCAL_SOURCE",
+      "excerpt": "REPLACE_WITH_SUPPORTING_EXCERPT"
+    }
+  ],
+  "created_at": "2026-09-27T00:00:00+00:00",
+  "updated_at": "2026-09-27T00:00:00+00:00",
+  "review_after": null,
+  "expires_at": null,
+  "supersedes": [],
+  "history": [
+    {
+      "at": "2026-09-27T00:00:00+00:00",
+      "actor": "example-only",
+      "action": "create",
+      "reason": "Fictional template, not live memory."
+    }
+  ]
+}
