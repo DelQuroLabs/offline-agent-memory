@@ -1,0 +1,11 @@
+{
+  "purpose": "Descriptive planning template only; not consumed by tools/memory.py",
+  "runtime_name": "FILL IN YOUR EXISTING LOCAL RUNTIME",
+  "model_path": "FILL IN LOCAL MODEL PATH",
+  "network_required_during_use": false,
+  "role_mode": "one selected role per session",
+  "tool_access": "none initially; operator applies changes",
+  "context_budget_chars": 14000,
+  "model_context_tokens": null,
+  "notes": "Measure tokens in your runtime. No model, endpoint, or runner is configured by this file."
+}

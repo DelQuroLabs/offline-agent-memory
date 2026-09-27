@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "agents": [
+    {
+      "id": "co-coordinator",
+      "name": "Coordinator",
+      "group": "core",
+      "scopes": [
+        "personal",
+        "software",
+        "business",
+        "shared"
+      ],
+      "card": "agents/core/co-coordinator.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "co-memory-steward",
+      "name": "Memory Steward",
+      "group": "core",
+      "scopes": [
+        "personal",
+        "software",
+        "business",
+        "shared"
+      ],
+      "card": "agents/core/co-memory-steward.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "co-evidence-researcher",
+      "name": "Evidence Researcher",
+      "group": "core",
+      "scopes": [
+        "personal",
+        "software",
+        "business",
+        "shared"
+      ],
+      "card": "agents/core/co-evidence-researcher.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "co-quality-reviewer",
+      "name": "Quality Reviewer",
+      "group": "core",
+      "scopes": [
+        "personal",
+        "software",
+        "business",
+        "shared"
+      ],
+      "card": "agents/core/co-quality-reviewer.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "co-privacy-guardian",
+      "name": "Privacy Guardian",
+      "group": "core",
+      "scopes": [
+        "personal",
+        "software",
+        "business",
+        "shared"
+      ],
+      "card": "agents/core/co-privacy-guardian.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "co-archivist",
+      "name": "Archivist",
+      "group": "core",
+      "scopes": [
+        "personal",
+        "software",
+        "business",
+        "shared"
+      ],
+      "card": "agents/core/co-archivist.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "pe-organizer",
+      "name": "Personal & Work Organizer",
+      "group": "personal",
+      "scopes": [
+        "personal"
+      ],
+      "card": "domains/personal/agents/pe-organizer.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "pe-planner",
+      "name": "Personal & Work Planner",
+      "group": "personal",
+      "scopes": [
+        "personal"
+      ],
+      "card": "domains/personal/agents/pe-planner.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "pe-learning-coach",
+      "name": "Learning Coach",
+      "group": "personal",
+      "scopes": [
+        "personal"
+      ],
+      "card": "domains/personal/agents/pe-learning-coach.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "pe-reflection-analyst",
+      "name": "Reflection Analyst",
+      "group": "personal",
+      "scopes": [
+        "personal"
+      ],
+      "card": "domains/personal/agents/pe-reflection-analyst.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "sw-architect",
+      "name": "Software Architect",
+      "group": "software",
+      "scopes": [
+        "software"
+      ],
+      "card": "domains/software/agents/sw-architect.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "sw-builder",
+      "name": "Software Builder",
+      "group": "software",
+      "scopes": [
+        "software"
+      ],
+      "card": "domains/software/agents/sw-builder.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "sw-debugger",
+      "name": "Debugger",
+      "group": "software",
+      "scopes": [
+        "software"
+      ],
+      "card": "domains/software/agents/sw-debugger.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "sw-technical-researcher",
+      "name": "Technical Researcher",
+      "group": "software",
+      "scopes": [
+        "software"
+      ],
+      "card": "domains/software/agents/sw-technical-researcher.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "bu-strategist",
+      "name": "Business Strategist",
+      "group": "business",
+      "scopes": [
+        "business"
+      ],
+      "card": "domains/business/agents/bu-strategist.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "bu-operations",
+      "name": "Operations Designer",
+      "group": "business",
+      "scopes": [
+        "business"
+      ],
+      "card": "domains/business/agents/bu-operations.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "bu-content",
+      "name": "Content Studio",
+      "group": "business",
+      "scopes": [
+        "business"
+      ],
+      "card": "domains/business/agents/bu-content.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    },
+    {
+      "id": "bu-analyst",
+      "name": "Business Analyst",
+      "group": "business",
+      "scopes": [
+        "business"
+      ],
+      "card": "domains/business/agents/bu-analyst.md",
+      "execution": "operator-selected; no autonomous runner supplied",
+      "memory_write": "propose drafts; operator applies"
+    }
+  ]
+}
